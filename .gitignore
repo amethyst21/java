@@ -1,22 +1,104 @@
-# Compiled class file
-*.class
+LAB 1
+/*This program prints the first verse of "Mary Had a Little Lamb" 
+ and the first three verses of "This Old Man".*/
+public class Poems {
+  
+  
+  /* This main method prints my name, as well as call the two methods
+   "MaryLittleLamb()" and "Oldman()"*/
+  public static void main(String[] args) { 
+    
+    System.out.println(" Lab 1 written by Grecia Alieth Gonzalez");
+    System.out.println();
+    
+    MaryLittleLamb();
+    System.out.println();
+    
+    Oldman(); 
+    
+  }
+  
+//This method prints the first verse and titele of "Mary Had a Little Lamb"
+  public static void MaryLittleLamb( ){
+    
+    System.out.println("Title :Mary Had a Little Lamb Song");
+    System.out.println();
+    Mary();
+    Little();
+    Mary();
+    Snow();
+    
+  }
+  
+//This method prints the first line and the third line of "Mary Had a Little Lamb"  
+  public static void Mary(){
+    
+    System.out.println("Mary Had a Little Lamb");
+    
+  }
+  
+//This method prints the second line of "Mary Had a Little Lamb"  
+  public static void Little() {
+    
+    System.out.println("Little Lamb, Little Lamb");
+    
+  }
+  
+//This method prints the fourth line of "Mary Had a Little Lamb"  
+  public static void Snow() {
+    
+    System.out.println("Whose fleece was white as snow");
+    
+  }
+  
+//This method prints the title and the first three verses of "This Old Man"  
+  public static void Oldman() {
+    
+    System.out.println("Title: This Old Man Song");
+    System.out.println();
+    Oldmanfirst();
+    Oldmansecond();
+    Oldmanthird();
+    
+  }
+  
+//This method prints the first verse of "This Old Man"  
+  public static void Oldmanfirst() {
+    
+    System.out.println("This Old Man he played one");
+    System.out.println("He played nick nack on my drum");
+    NickNack();
+    
+  }
+  
+//This method prints the second verse of "This Old Man"  
+  public static void Oldmansecond(){
+    
+    System.out.println("This Old Man he played two");
+    System.out.println("He played nick nack on my shoe");
+    NickNack();
+    
+  }
+  
+//This method prints the third verse of "This Old Man"  
+  public static void Oldmanthird(){
+    
+    System.out.println("This Old Man he played three");
+    System.out.println("He played nick nack on my tree");
+    NickNack();
+  }
+  
+//This method prints the repeting phrase of "This Old Man"  
+  public static void NickNack( ){
+    
+    //This method prints out the repeating verse of the song
+    System.out.println("With a nick nack paddy whack");
+    System.out.println("Give a dog a bone");
+    System.out.println("This old man came rolling home");
+    System.out.println();
+    
+  }
+}
 
-# Log file
-*.log
 
-# BlueJ files
-*.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
